@@ -1,0 +1,80 @@
+.header {
+  padding: 3px 24px;
+  text-align: right;
+  background: black;
+  color: white;
+  font-size: 14px;
+}
+
+img {   width: 100%;
+          height: auto;
+          filter: blur(8px);
+  -webkit-filter: blur(8px);
+        }
+
+.footer {
+  padding: 3px;
+  text-align: center;
+  background: black;
+  color: white;
+  font-size: 12px;
+  }
+  .writeover {
+    padding: 24px 24px;
+    text-align: center;
+    background: white;
+    font-size: 24px;
+    border: 3px solid black;
+    position: absolute;
+    top: 50%;
+    left: 32%;
+
+  }
+  /* not my work*/
+  .btn-group button {
+    background-color: Black; /* Green background */
+    border: 1px solid white; /* Green border */
+    color: white; /* White text */
+    padding: 7px 15px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    float: left; /* Float the buttons side by side */
+  }
+
+  .btn-group button:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+  }
+
+  /* Clear floats (clearfix hack) */
+  .btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  /* Add a background color on hover */
+  .btn-group button:hover {
+    background-color: white;
+    color: black;
+  }
+  .infospecial {
+    padding: 24px 24px;
+    text-align: center;
+    background: white;
+    font-size: 24px;
+    border: 3px solid black;
+    position: absolute;
+    top: 50%;
+    left: 15%;
+  }
+
+  .helpspecial {
+    padding: 24px 24px;
+    text-align: center;
+    background: white;
+    font-size: 24px;
+    border: 3px solid black;
+    position: absolute;
+    top: 50%;
+    left: 37%;
+
+  }
