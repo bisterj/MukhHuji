@@ -1,0 +1,90 @@
+.header {
+  padding: 3px 24px;
+  text-align: right;
+  background: black;
+  color: white;
+  font-size: 14px;
+}
+
+img {   width: 100%;
+        height: auto;
+      }
+
+
+.bg {
+  background: white;
+  width: 100%
+  padding: 50px;
+}
+
+/*body {background-image: url("/images/back.png");}*/
+
+.b1 button {
+  background-color: white;
+  border: 3px solid black;
+  color: black;
+  text-align: center;
+  font-size: 20px;
+  position: absolute;
+  top: 65%;
+  left: 60%;
+  padding: 10px 24px;
+
+}
+
+.b2 button {
+  background: white;
+  border: 3px solid black;
+  color: black;
+  text-align: center;
+  font-size: 20px;
+  position:absolute;
+  top:65%;
+  left:35%;
+  padding: 10px 24px;
+}
+
+.b1 button:hover {
+  background-color: black;
+  color: white
+}
+
+.b2 button:hover {
+  background-color: black;
+  color: white
+}
+
+
+.footer{
+padding: 3px;
+text-align: center;
+background: black;
+color: white;
+font-size: 12px;
+}
+/* not my work*/
+.btn-group button {
+  background-color: Black; /* Green background */
+  border: 1px solid white; /* Green border */
+  color: white; /* White text */
+  padding: 7px 15px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+}
+
+.btn-group button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+  background-color: white;
+  color: black;
+}
